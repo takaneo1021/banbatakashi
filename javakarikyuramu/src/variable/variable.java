@@ -23,7 +23,7 @@ public class variable {
 		
 		name = "山田太郎";
 	    height = 174.2;
-	    gender = '花';
+	    gender = '男';
 	    age = 19;	
 	    
 	    System.out.println("私の自己紹介をします。");
