@@ -27,12 +27,12 @@ public class lesson1_6 {
 		int i;
 		i = 100;
 		i++;
-		
-		System.out.println(i);
-		
-		i--;
+
 		System.out.println(i);
 
+		i--;
+		System.out.println(i);
+		
 //		問３）
 //		下記の例のような文章をコンソールに出力して下さい。
 //		但し、年齢の部分は乱数を使用し実行毎に結果が変わるようにして下さい。
@@ -41,12 +41,12 @@ public class lesson1_6 {
 //		あなたの年齢を予想します。
 //		あなたの年齢はおそらく〇〇歳ですね？
 		
-		 Random rnd = new Random();
-		 
-		 int age = rnd.nextInt(100);
-		 
-		 System.out.println("あなたの年齢を予想します。");
-		 System.out.println("あなたの年齢はおそらく" + age + "歳ですね？" );
+		Random rnd = new Random();
+
+		int age = rnd.nextInt(100);
+
+		System.out.println("あなたの年齢を予想します。");
+		System.out.println("あなたの年齢はおそらく" + age + "歳ですね？" );
 
 	}
 
