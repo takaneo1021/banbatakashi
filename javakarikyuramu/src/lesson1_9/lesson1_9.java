@@ -56,7 +56,7 @@ public class lesson1_9 {
 			System.out.println("私は疲れています。");
 		}	
 		
-		System.out.println(study = isTired == 0 ? study + "を続けます。" : "NG"); 
+		System.out.println(study = isTired == 0 ? study + "を続けます。" : ""); 
  		
 
 	}
