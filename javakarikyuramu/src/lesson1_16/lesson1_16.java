@@ -30,8 +30,7 @@ public class lesson1_16 {
 		
 		int[] nums = {10,100,1000};
 		int[] numes2 = nums;
-		numes2[0] = 1;
-		System.out.println(numes2[0]);
+		System.out.println(numes2[1]);
 		
 		int[] b = nums;
 		b[0] = 8;
