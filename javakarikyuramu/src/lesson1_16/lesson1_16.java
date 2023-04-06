@@ -35,6 +35,7 @@ public class lesson1_16 {
 		int[] b = nums;
 		b[1] = 8;
 		System.out.println(nums[1]);
+		System.out.println(b[1]);
 
 	}
 
