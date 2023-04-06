@@ -33,8 +33,8 @@ public class lesson1_16 {
 		System.out.println(numes2[1]);
 		
 		int[] b = nums;
-		b[0] = 8;
-		System.out.println(nums[0]);
+		b[1] = 8;
+		System.out.println(nums[1]);
 
 	}
 
