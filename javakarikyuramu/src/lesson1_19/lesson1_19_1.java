@@ -20,7 +20,7 @@ public class lesson1_19_1 {
 		
 		// 現在の日時を「yyyy-MM-dd H:m:s」形式で変数に代入して、コンソールに出力してください
 		
-		
+//		日付
 		Date date = new Date();
 		SimpleDateFormat df = new SimpleDateFormat("yyyy/MM/dd  HH:mm:ss");
 		System.out.println(df.format(date));
