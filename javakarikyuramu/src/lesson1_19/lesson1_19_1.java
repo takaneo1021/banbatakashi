@@ -8,7 +8,9 @@ public class lesson1_19_1 {
 	public static void main(String[] args) {
 		// Q1：Dogクラスを呼び出して変数に代入し、動物の名前をコンソールに出力してください。
 		
+//		Dogを呼び出し
 		Dog sub = new Dog();
+//		メソッドの呼び出し
 		sub.publicMethod();
 		
 		// Q2：Dogクラスを呼び出して変数に代入し、動物の数をコンソールに出力してください。
