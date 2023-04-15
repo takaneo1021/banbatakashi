@@ -4,13 +4,13 @@ import java.util.Objects;
 
 public class lesson1_22 {
 	
-//	フィールドを作成。
+// フィールドを作成。
 	public String greeting ; 
 	public String food ;
 	public String meal;
 	public String day ;
 	
-//	thisを使いフィールド変数を定義。
+// thisを使いフィールド変数を定義。
 	public lesson1_22 (String greeting,String food,String meal,String day) {
 		
 		this.greeting = greeting;
@@ -18,8 +18,7 @@ public class lesson1_22 {
 		this.meal = meal;
 		this.day = day;
 		
-//		nullチェック
-		
+// nullチェック
 		String a = null;
 		String b = greeting;
 
@@ -28,8 +27,6 @@ public class lesson1_22 {
 			} else {
 			  System.out.print(b); 
 			}
-		
-		
 	}
 
 }
