@@ -23,7 +23,7 @@ public class Animal {
 			
 	    // 日付をコントロールに出力。
 		    Date date = new Date();
-			SimpleDateFormat df = new SimpleDateFormat("yyyy/MM/dd  HH:mm:ss");
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd H:m:s");
 			System.out.println(df.format(date));
 	
 		}
