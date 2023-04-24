@@ -1,5 +1,7 @@
 package lesson1_22;
 
+import java.util.Objects;
+
 public class lesson1_22 {
 	
 // フィールドを作成。
@@ -7,6 +9,9 @@ public class lesson1_22 {
 	public String food ;
 	public String meal;
 	public String day ;
+	
+ // nullチェック
+		Object obj = null;
 	
 // thisを使いフィールド変数を定義。
 	public lesson1_22 (String greeting,String food,String meal,String day) {
@@ -17,14 +22,9 @@ public class lesson1_22 {
 		this.day = day;
 		
 // nullチェック
-		String a = null;
-		String b = greeting;
-
-//		if (Objects.nonNull(a)) {
-//			  System.out.print(a);
-//			} else {
-//			  System.out.print(b); 
-//			}
+	    Object obj = null;
+	    if(Objects.nonNull(obj)) {
+	        System.out.println("obj == null");
+	    }
 	}
-
 }

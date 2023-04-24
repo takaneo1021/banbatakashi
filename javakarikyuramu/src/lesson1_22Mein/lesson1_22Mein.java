@@ -19,6 +19,6 @@ public class lesson1_22Mein {
 		System.out.println("この" +  call.food + "はうまい");
 		System.out.println(call.food + "は" + call.meal + "です");
 		System.out.println("今の現在日時は" + call.day + "です");
+		
 	}
-
 }
