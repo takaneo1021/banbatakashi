@@ -1,11 +1,9 @@
 package lesson1_22;
 
-import java.util.Objects;
-
 public class lesson1_22 {
 	
 // フィールドを作成。
-	public String greeting ; 
+	public String greeting = "日本" ; 
 	public String food ;
 	public String meal;
 	public String day ;
@@ -22,11 +20,11 @@ public class lesson1_22 {
 		String a = null;
 		String b = greeting;
 
-		if (Objects.nonNull(a)) {
-			  System.out.print(a);
-			} else {
-			  System.out.print(b); 
-			}
+//		if (Objects.nonNull(a)) {
+//			  System.out.print(a);
+//			} else {
+//			  System.out.print(b); 
+//			}
 	}
 
 }
