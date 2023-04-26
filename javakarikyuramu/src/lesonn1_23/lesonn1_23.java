@@ -11,7 +11,6 @@ public class lesonn1_23 {
 		  	動物名：ライオン
 			体長：2.1m
 			速度：80km/h
-		 	
 		 */
 	      // クラスlesonn1_23_2を作成
 			lesonn1_23_2 ani = new lesonn1_23_2();
