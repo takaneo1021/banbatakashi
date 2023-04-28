@@ -15,15 +15,19 @@ public class lesonn1_23 {
 	      // クラスlesonn1_23_2を作成
 			lesonn1_23_2 ani = new lesonn1_23_2();
 			
-	      // 代入する内容を作成
-			String a = "動物名：ライオン\n"
-					+ "	体長：2.1m\n"
-					+ "	速度：80km/h";
+			// 代入する内容を作成
+			String a = "動物名：ライオン";
+			String b = "体長：2.1m";
+			String c = "速度：80km/h";
 			
 	      // setAnimalのメソッドに送り出す(setter)
-			ani.setAnimal(a);
+			ani.setAnimalNumber(a);
+			ani.setAnimalLength(b);
+			ani.setAnimalSpeed(c);
 			
 	      // フィールドに値を取り出す（getter)
-			System.out.println(ani.getAnimal());
+			System.out.println(ani.getAnimalNumber());
+			System.out.println(ani.getAnimalLength());
+			System.out.println(ani.getAnimalSpeed());
 		}
 	}

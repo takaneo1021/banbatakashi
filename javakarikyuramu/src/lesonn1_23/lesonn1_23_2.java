@@ -5,24 +5,57 @@ import java.util.Objects;
 public class lesonn1_23_2 {
 
 	  // フィールド	numberを作成
-		private String number;
+		private String number ;
+		private String length ;
+		private String speed ;
+		
 	
-	  // getterに送り出す
-	public String getAnimal() {
-	    return number = "動物名：ライオン\n"
-	             + "	体長：2.1m\n"
-	             + "	速度：80km/h";
-	}
+		// getterに送り出す
+		public String getAnimalNumber() {
+			return number ;
+		}
+
+		// getterに送り出す
+		public String getAnimalLength() {
+			return length ;
+		}
+
+		// getterに送り出す
+		public String getAnimalSpeed() {
+			return speed ;
+		}
 	
-	 // フィールドに値を代入(setter)
-	public void setAnimal(String number) {
-	    this.number = number; 
-	    
-	  // nullチェック
-	    Object obj = null;
-	    if(Objects.nonNull(obj)) {
-	        System.out.println("obj == null");
-	    }
-	}
+		// フィールドに値を代入(setter)
+		public void setAnimalNumber(String number) {
+			this.number = number; 
+
+			// nullチェック
+			Object obj = null;
+			if(Objects.nonNull(obj)) {
+				System.out.println("obj == null");
+			}
+		}
+
+		// フィールドに値を代入(setter)
+		public void setAnimalLength(String length) {
+			this.length = length; 
+
+			// nullチェック
+			Object obj = null;
+			if(Objects.nonNull(obj)) {
+				System.out.println("obj == null");
+			}
+		}
+
+		// フィールドに値を代入(setter)
+		public void setAnimalSpeed(String speed) {
+			this.speed = speed; 
+
+			// nullチェック
+			Object obj = null;
+			if(Objects.nonNull(obj)) {
+				System.out.println("obj == null");
+			}
+		}
 
 }
