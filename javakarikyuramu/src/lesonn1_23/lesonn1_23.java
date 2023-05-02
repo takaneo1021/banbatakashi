@@ -16,18 +16,18 @@ public class lesonn1_23 {
 			lesonn1_23_2 ani = new lesonn1_23_2();
 			
 			// 代入する内容を作成
-			String a = "動物名：ライオン";
-			String b = "体長：2.1m";
-			String c = "速度：80km/h";
+			String name = "ライオン";
+			double length = 2.1;
+			int speed = 80;
 			
 	      // setAnimalのメソッドに送り出す(setter)
-			ani.setAnimalNumber(a);
-			ani.setAnimalLength(b);
-			ani.setAnimalSpeed(c);
+			ani.setAnimalName(name);
+			ani.setAnimalLength(length);
+			ani.setAnimalSpeed(speed);
 			
 	      // フィールドに値を取り出す（getter)
-			System.out.println(ani.getAnimalNumber());
-			System.out.println(ani.getAnimalLength());
-			System.out.println(ani.getAnimalSpeed());
+			System.out.println("動物名" + ani.getAnimalName());
+			System.out.println("体長：" + ani.getAnimalLength() + "m");
+			System.out.println("速度：" + ani.getAnimalSpeed() + "km/h");
 		}
 	}

@@ -5,57 +5,54 @@ import java.util.Objects;
 public class lesonn1_23_2 {
 
 	  // フィールド	numberを作成
-		private String number ;
-		private String length ;
-		private String speed ;
+		private String strName;
+		private double bodLength;
+		private int fasSpeed;
 		
 	
 		// getterに送り出す
-		public String getAnimalNumber() {
-			return number ;
+		public String getAnimalName() {
+			return this.strName;
 		}
 
 		// getterに送り出す
-		public String getAnimalLength() {
-			return length ;
+		public double getAnimalLength() {
+			return bodLength;
 		}
 
 		// getterに送り出す
-		public String getAnimalSpeed() {
-			return speed ;
+		public int getAnimalSpeed() {
+			return fasSpeed;
 		}
 	
 		// フィールドに値を代入(setter)
-		public void setAnimalNumber(String number) {
-			this.number = number; 
-
+		public void setAnimalName(String name) {
 			// nullチェック
-			Object obj = null;
-			if(Objects.nonNull(obj)) {
-				System.out.println("obj == null");
+			if(Objects.isNull(name)){
+				System.out.println("name == null");
+				return;
 			}
+			this.strName = name; 
 		}
 
 		// フィールドに値を代入(setter)
-		public void setAnimalLength(String length) {
-			this.length = length; 
-
+		public void setAnimalLength(double length) {
 			// nullチェック
-			Object obj = null;
-			if(Objects.nonNull(obj)) {
-				System.out.println("obj == null");
+			if(Objects.isNull(length)){
+				System.out.println("length == null");
+				return;
 			}
+			this.bodLength = length; 
 		}
 
 		// フィールドに値を代入(setter)
-		public void setAnimalSpeed(String speed) {
-			this.speed = speed; 
-
+		public void setAnimalSpeed(int speed) {
 			// nullチェック
-			Object obj = null;
-			if(Objects.nonNull(obj)) {
-				System.out.println("obj == null");
+			if(Objects.isNull(speed)){
+				System.out.println("speed == null");
+				return;
 			}
+			this.fasSpeed = speed; 
 		}
 
 }
