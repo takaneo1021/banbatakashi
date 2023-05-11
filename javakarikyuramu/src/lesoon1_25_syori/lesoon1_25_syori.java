@@ -1,39 +1,73 @@
 package lesoon1_25_syori;
 
-public class lesoon1_25_syori {
+public class int {
 	
 	private String name;
 	private int HP;
 	private int MP;
-	private int 攻撃力;
-	private int 素早さ;
-	private int 防御力;
+	private int attack;
+	private int agility;
+	private int defense;
 	
 	public String getName() {
 		return name;
 		}
 
-		public void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 		}
+	
+	public int getHP() {
+		return HP;
+		}
+
+	public void setHP(int HP) {
+		this.HP = HP;
+		}
+	
+	public int getMP() {
+		return MP;
+		}
+
+	public void setMP(int MP) {
+		this.MP = MP;
+		}
+	
+	public int getAttack() {
+		return attack;
+		}
+
+	public void setAttack(int Attack) {
+		this.attack = Attack;
+		}
+	
+	public int getAgility() {
+		return agility;
+		}
+
+	public void setAgility(int Agility) {
+		this.agility = Agility;
+		}
+	
+	public int getDefense() {
+		return defense;
+		}
+
+	public void setDefense(int Defense) {
+		this.defense = Defense;
+		}
+		
 		
 		public void status(String name) {
-			System.out.println("こんにちは 「" + this.name + "」 さん");
+			System.out.println("こんにちは 「" + name + "」 さん");
 			System.out.println("ステータス");
 		}
 		
-		public class lesoon1_25_setter extends lesoon1_25_syori{
+		public class status extends lesoon1_25_syori{
 
 			public void status(String name){
-				super.setName(name);
+				super.status(this.name);
 				
-				System.out.println("HP:" + HP);
-				System.out.println("MP:" + MP);
-				System.out.println("攻撃力:" + 攻撃力);
-				System.out.println("素早さ:" + 素早さ);
-				System.out.println("防御力:" + 防御力);
-				System.out.println();
-				System.out.println("さあ冒険に出かけよう！");
 		}
 		} 
 	}
