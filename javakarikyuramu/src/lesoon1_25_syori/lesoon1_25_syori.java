@@ -77,7 +77,7 @@ public class lesoon1_25_syori {
 		return defense;
 	}
 
-//	フィールドに値を代入(setter)
+//	フィールドに値を代入(setter)。
 	public void setDefense(int Defense) {
 		//  nullチェック
 		if(Objects.isNull(Defense)){

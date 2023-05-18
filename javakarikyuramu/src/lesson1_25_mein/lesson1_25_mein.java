@@ -59,7 +59,6 @@ public class lesson1_25_mein {
 		System.out.println("攻撃力:" + sta.getAttack());
 		System.out.println("素早さ:" + sta.getAgility());
 		System.out.println("防御力:" + sta.getDefense());
-		System.out.println("さあ冒険に出かけよう！");
-		
+		System.out.println("\r\nさあ冒険に出かけよう！");
 	}
-}
+	}
