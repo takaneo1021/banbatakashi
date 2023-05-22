@@ -1,5 +1,7 @@
 package lesson1_25_mein;
 
+import java.util.Scanner;
+
 import lesoon1_25_syori.lesoon1_25_sabu;
 
 public class lesson1_25_mein {
@@ -32,8 +34,9 @@ public class lesson1_25_mein {
 //		クラスlesoon1_25_sabuを呼び出している。
 		lesoon1_25_sabu sta = new lesoon1_25_sabu();
 		
-//		nameを宣言と代入
-		String name = "馬場";
+//		コンソールから文字列を入力
+		 Scanner sc1 = new Scanner(System.in);
+	     String name = sc1.nextLine();
 		
 //		セッター作成。lesoon1_25_sabuに送り出す。
 		sta.Status(name);
