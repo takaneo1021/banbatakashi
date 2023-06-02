@@ -30,15 +30,18 @@ public class lesson1_25_mein {
 	 */
 
 	public static void main(String[] args) {
-		
-//		クラスlesoon1_25_sabuを呼び出している。
+
+		// クラスlesoon1_25_sabuを呼び出している。
 		lesoon1_25_sabu sta = new lesoon1_25_sabu();
+
+		// コンソールから文字列を入力
+		Scanner sc1 = new Scanner(System.in);
+		String name = sc1.nextLine();
+
+		// セッター作成。lesoon1_25_sabuに送り出す。
+		sta.setName(name);
 		
-//		コンソールから文字列を入力
-		 Scanner sc1 = new Scanner(System.in);
-	     String name = sc1.nextLine();
-		
-//		セッター作成。lesoon1_25_sabuに送り出す。
-		sta.Status(name);
+        // 処理されたものをメインに送る。	
+		sta.StatusSab();
 	}
-	}
+}
