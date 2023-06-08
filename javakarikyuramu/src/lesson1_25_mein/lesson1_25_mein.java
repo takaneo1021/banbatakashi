@@ -37,11 +37,18 @@ public class lesson1_25_mein {
 		// コンソールから文字列を入力
 		Scanner sc1 = new Scanner(System.in);
 		String name = sc1.nextLine();
-
+		
 		// セッター作成。lesoon1_25_sabuに送り出す。
 		sta.setName(name);
+		sta.setHP((int)Math.ceil(Math.random() * 1000) + 1);
+		sta.setMP((int)Math.ceil(Math.random() * 1000) + 1);
+		sta.setAttack((int)Math.ceil(Math.random() * 1000) + 1);
+		sta.setAgility((int)Math.ceil(Math.random() * 1000) + 1);
+		sta.setDefense((int)Math.ceil(Math.random() * 1000) + 1);
 		
         // 処理されたものをメインに送る。	
 		sta.StatusSab();
+		
+		sc1.close();
 	}
 }
